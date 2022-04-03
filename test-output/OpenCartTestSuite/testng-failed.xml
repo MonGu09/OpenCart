@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OpenCartTestSuite]">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="OpenCart tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_003_LoginDDT">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="test_LoginDDT" invocation-numbers="2 3"/>
+        </methods>
+      </class> <!-- testCases.TC_003_LoginDDT -->
+    </classes>
+  </test> <!-- OpenCart tests(failed) -->
+</suite> <!-- Failed suite [OpenCartTestSuite] -->

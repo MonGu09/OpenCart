@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OpenCartTestSuite" Thread-count="2" parallel="tests">
+<test name= "Chrome tests">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="testCases.TC_001_AccountRegistration"/>
+</classes>
+</test>
+
+<test name= "FireFox tests">
+<parameter name="browser" value="firefox"/>
+<classes>
+<class name="testCases.TC_001_AccountRegistration"/>
+</classes>
+</test>
+
+</suite>
